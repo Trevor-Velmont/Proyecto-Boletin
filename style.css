@@ -1,18 +1,41 @@
-
-
-
 #title {
     text-align: center;
+    margin-top: 20px;
+}
+
+body {
+    background: #dce3fa;
+}
+
+.contenedor {
+    align-items: center;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
     text-align: center;
-    /* Alinear contenido del formulario al centro */
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #b81818;
+    border-radius: 6px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+    background: white;
+    box-shadow: 0 10px 30px #00000088;
+    margin: 40px auto;
+    border: 1px solid #ffffff40;
 }
 
+form{
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+}
 button {
     margin-top: 10px;
 }
@@ -21,55 +44,83 @@ button {
     margin-left: 30%;
 }
 
-#span{
+#span {
     margin-left: 40px;
 }
 
-.contenedor{
+.contenedor {
     margin-left: 19%;
 }
 
 
-.linea{
+.linea {
     margin-left: 19%;
-    border-bottom: 2px solid #d1a29d; 
-    width: 500px; 
+    border-bottom: 2px solid #d1a29d;
+    width: 500px;
     color: #d1a29d;
     font-weight: bold;
 }
 
-.materia{
+.materia {
     font-weight: bold;
     border-bottom: 2px solid #345b73;
     width: 350px;
     color: #345b73;
 }
 
-.nota{
+.nota {
     font-weight: bold;
     border-bottom: 2px solid #c87a67;
     width: 150px;
     color: #c87a67;
-} 
-.nota{
+}
+
+.nota {
     padding-bottom: 10px;
 }
 
-tr{
-margin-bottom: 100px;
+tr {
+    margin-bottom: 100px;
 }
 
 
-/* Estilo para el div dentro de la sección */
+/* Estilo para el div dentro de la sección #f4d2b3*/
 .div-rojo {
-    
-    background-color: red; 
-    color: white; 
-    width: 300px; /* Ancho del rectángulo vertical */
-    height: 812px; /* Altura del rectángulo vertical */
-    float: right; /* Alineación a la derecha */
+
+    background-color: #345b73;
+    color: #dce3fa;
+    width: 300px;
+    /* Ancho del rectángulo vertical */
+    height: 812px;
+    /* Altura del rectángulo vertical */
+    float: right;
+    /* Alineación a la derecha */
     margin-right: 50px;
-   
+    text-align: center;
+}
+
+#Lorem {
+    margin-top: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.div-azul {
+    background-color: #f4d2b3;
+    color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.div-azul {
+    text-align: center;
+    color: #c87a67;
 }
 
 
+img {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+}

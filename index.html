@@ -12,18 +12,18 @@
 </head>
 
 <body>
-    <h2 id="title">Datos del Estudiante</h2>
+    <h2 id="title" class="titulo">Datos del Estudiante</h2>
 
     <div class="contenedor2">
         <form id="miFormulario">
-            <label for="nombres">Nombre completo:</label><br>
-            <input type="text" id="nombres" name="nombres" required><br><br>
+            <label for="nombres" class="titulo">Nombre completo:</label><br>
+            <input class="inputs" type="text" id="nombres" name="nombres" required><br><br>
 
-            <label for="identidad">Tarjeta de identidad:</label><br>
-            <input type="tel" id="identidad" name="identidad" maxlength="10" minlength="10" required><br><br>
+            <label for="identidad" class="titulo">Tarjeta de identidad:</label><br>
+            <input class="inputs" type="tel" id="identidad" name="identidad" maxlength="10" minlength="10" required><br><br>
 
-            <label for="grado">Grado cursado:</label><br>
-            <select name="grado" id="grado" required>
+            <label for="grado" class="titulo">Grado cursado:</label><br>
+            <select class="inputs" name="grado" id="grado" required>
                 <option value=""></option>
                 <option value="6°">6°</option>
                 <option value="7°">7°</option>
@@ -33,15 +33,15 @@
                 <option value="11°">11°</option>
             </select><br><br>
 
-            <label for="periodo_lect">Perido lectivo:</label><br>
-            <select name="periodo_lect" id="periodo_lect">
+            <label for="periodo_lect" class="titulo">Perido lectivo:</label><br>
+            <select class="inputs" name="periodo_lect" id="periodo_lect" required>
                 <option value=""></option>
                 <option value="1° Periodo">1° Periodo</option>
                 <option value="2° Periodo">2° Perido</option>
                 <option value="3° Periodo">3° Periodo</option>
             </select><br><br>
 
-            <button type="submit">Enviar</button>
+            <button class="boton" type="submit">Enviar</button>
         </form>
     </div>
 
@@ -50,19 +50,19 @@
             <img src="gorro-graduacion.png" alt="gorro-graduacion">
             <p>INSTUTUCIION EDUCATIVA PASA CABALLOS</p>
         </div>
-        <p id="Lorem">Observaciones: <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis nam quam
-            itaque necessitatibus doloribus dolores, cumque maiores et perspiciatis ipsam eaque amet suscipit. Aperiam
-            ea quam sunt eum velit doloremque adipisci, id consequatur fugit laudantium quia et, iste saepe.</p>
+        <p id="Lorem">Observaciones: <br><span id="Loremc"></span></p>
     </div>
 
 
     <div id="container text-center">
-        <h1 id="not_alum">BOLETIN DE <br><span id="span">NOTAS</span></h1>
+        <h1 id="not_alum" class="titulo">BOLETÍN DE <br><span id="span">NOTAS</span></h1>
         </h1>
 
         <p class="linea" id="inombre">NOMBRE:</p><br>
-        <p class="linea" id="icurso">CURSO: 11°</p><br>
+        <p class="linea" id="iidentificacion">Tarjeta de identidad:</p><br>
+        <p class="linea" id="icurso">CURSO:</p><br>
         <p class="linea" id="idirector">DIRECTORA DE GRUPO:</p><br>
+        <p class="linea" id="ilectivo">PERIODO LECTIVO:</p><br>
         <P class="linea" id="ifecha">FECHA:</P><br>
 
 
@@ -71,52 +71,52 @@
     <div class="contenedor">
         <table>
             <tr>
-                <td class="materia">1</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig1"></td>
+                <td class="nota" id="not1"></td>
             </tr>
             <tr>
-                <td class="materia">2</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig2"></td>
+                <td class="nota" id="not2"></td>
             </tr>
             <tr>
-                <td class="materia">3</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig3"></td>
+                <td class="nota" id="not3"></td>
             </tr>
             <tr>
-                <td class="materia">4</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig4"></td>
+                <td class="nota" id="not4"></td>
             </tr>
             <tr>
-                <td class="materia">5</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig5"></td>
+                <td class="nota" id="not5"></td>
             </tr>
             <tr>
-                <td class="materia">6</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig6"></td>
+                <td class="nota" id="not6"></td>
             </tr>
             <tr>
-                <td class="materia">7</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig7"></td>
+                <td class="nota" id="not7"></td>
             </tr>
             <tr>
-                <td class="materia">8</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig8"></td>
+                <td class="nota" id="not8"></td>
             </tr>
             <tr>
-                <td class="materia">9</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig9"></td>
+                <td class="nota" id="not9"></td>
             </tr>
             <tr>
-                <td class="materia">10</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig10"></td>
+                <td class="nota" id="not10"></td>
             </tr>
             <tr>
-                <td class="materia">11</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig11"></td>
+                <td class="nota" id="not11"></td>
             </tr>
             <tr>
-                <td class="materia">12</td>
-                <td class="nota">not</td>
+                <td class="materia" id="asig12"></td>
+                <td class="nota" id="not12"></td>
             </tr>
         </table>
 

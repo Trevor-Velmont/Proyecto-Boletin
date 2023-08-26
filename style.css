@@ -3,6 +3,10 @@
     margin-top: 20px;
 }
 
+.titulo{
+    color: #345b73;
+}
+
 body {
     background: #dce3fa;
 }
@@ -20,22 +24,23 @@ body {
 form {
     text-align: center;
     padding: 20px;
-    border: 1px solid #b81818;
+    border: 1px solid #c87a67;
     border-radius: 6px;
     width: 400px;
     height: 400px;
-    margin-bottom: 50px;
-    background: white;
+    margin-bottom: 70px;
+    background: #c87a67;
     box-shadow: 0 10px 30px #00000088;
     margin: 40px auto;
     border: 1px solid #ffffff40;
 }
 
-form{
+form {
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    background-color: rgba(243, 243, 243, 0.2);
+    background-color: rgb(244, 210, 179, 0.2);
 }
+
 button {
     margin-top: 10px;
 }
@@ -91,7 +96,7 @@ tr {
     color: #dce3fa;
     width: 300px;
     /* Ancho del rectángulo vertical */
-    height: 812px;
+    height: 944px;
     /* Altura del rectángulo vertical */
     float: right;
     /* Alineación a la derecha */
@@ -109,7 +114,7 @@ tr {
     background-color: #f4d2b3;
     color: white;
     width: 300px;
-    height: 300px;
+    height: 400px;
 }
 
 .div-azul {
@@ -119,8 +124,30 @@ tr {
 
 
 img {
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 10px;
     width: 120px;
     height: 120px;
+}
+
+.inputs{
+    border-radius: 6px;
+    border: none;
+    border-bottom: 2px solid #c87a67;
+}
+.boton{
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 4px 14px;
+    border: solid 2px #d1a29d;
+    background: #d1a29d;
+    color: #345b73;
+
+}
+
+.boton:hover{
+    border: solid 2px #345b73;
+    background: #345b73;
+    transition: all 0.5s;
+    color: #d1a29d;
 }

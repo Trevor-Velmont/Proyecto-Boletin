@@ -1,17 +1,75 @@
 
+
+
 #title {
     text-align: center;
 }
 
-
-
 form {
-    text-align: center; /* Alinear contenido del formulario al centro */
+    text-align: center;
+    /* Alinear contenido del formulario al centro */
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-button{
+button {
     margin-top: 10px;
 }
+
+#not_alum {
+    margin-left: 30%;
+}
+
+#span{
+    margin-left: 40px;
+}
+
+.contenedor{
+    margin-left: 19%;
+}
+
+
+.linea{
+    margin-left: 19%;
+    border-bottom: 2px solid #d1a29d; 
+    width: 500px; 
+    color: #d1a29d;
+    font-weight: bold;
+}
+
+.materia{
+    font-weight: bold;
+    border-bottom: 2px solid #345b73;
+    width: 350px;
+    color: #345b73;
+}
+
+.nota{
+    font-weight: bold;
+    border-bottom: 2px solid #c87a67;
+    width: 150px;
+    color: #c87a67;
+} 
+.nota{
+    padding-bottom: 10px;
+}
+
+tr{
+margin-bottom: 100px;
+}
+
+
+/* Estilo para el div dentro de la sección */
+.div-rojo {
+    
+    background-color: red; 
+    color: white; 
+    width: 300px; /* Ancho del rectángulo vertical */
+    height: 812px; /* Altura del rectángulo vertical */
+    float: right; /* Alineación a la derecha */
+    margin-right: 50px;
+   
+}
+
+

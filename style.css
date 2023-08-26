@@ -1,0 +1,17 @@
+
+#title {
+    text-align: center;
+}
+
+
+
+form {
+    text-align: center; /* Alinear contenido del formulario al centro */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 10px;
+}
